@@ -1,0 +1,35 @@
+{
+  "name": "michaeldeboey.be",
+  "description": "Michaël's personal website",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Michaël De Boey <info@michaeldeboey.be> (https://michaeldeboey.be)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MichaelDeBoey/michaeldeboey.be"
+  },
+  "bugs": {
+    "url": "https://github.com/MichaelDeBoey/michaeldeboey.be/issues"
+  },
+  "homepage": "https://michaeldeboey.be",
+  "scripts": {
+    "build": "NODE_ENV=production npm run generate:css",
+    "generate:css": "postcss style.css -o style.generated.css",
+    "start": "npm run generate:css && serve"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "postcss-cli": "^8.3.1",
+    "prettier": "2.2.1",
+    "serve": "^11.3.2"
+  },
+  "browserslist": [
+    ">1%",
+    "not dead"
+  ]
+}
