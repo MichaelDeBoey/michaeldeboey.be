@@ -1,7 +1,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  // purge: ['index.html'],
+  mode: 'jit',
   purge: {
     content: ['index.html'],
     options: {
@@ -15,13 +15,8 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
-      opacity: {
-        55: '0.55',
-        85: '0.85',
-      },
     },
   },
-
   variants: {
     extend: {},
   },
