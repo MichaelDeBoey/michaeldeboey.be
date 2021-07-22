@@ -19,7 +19,7 @@
     "start": "npm run generate:css && serve"
   },
   "dependencies": {
-    "tailwindcss": "^2.2.4"
+    "tailwindcss": "^2.2.6"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
