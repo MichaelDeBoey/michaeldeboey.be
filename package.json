@@ -16,7 +16,7 @@
   "scripts": {
     "build": "npm-run-all --parallel build:**",
     "build:css": "NODE_ENV=production npm run generate:css -- --minify",
-    "generate:css": "npx tailwindcss -i ./style.css -o ./style.generated.css",
+    "generate:css": "npx tailwindcss -o ./style.css",
     "start": "npm-run-all --parallel start:**",
     "start:app": "serve",
     "start:css": "npm run generate:css -- --watch"
