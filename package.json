@@ -15,7 +15,7 @@
   "homepage": "https://michaeldeboey.be",
   "scripts": {
     "build": "npm-run-all --parallel build:**",
-    "build:css": "NODE_ENV=production npm run generate:css -- --minify",
+    "build:css": "npm run generate:css -- --minify",
     "generate:css": "npx tailwindcss -o ./style.css",
     "start": "npm-run-all --parallel start:**",
     "start:app": "serve",
@@ -25,7 +25,7 @@
     "npm-run-all": "^4.1.5",
     "prettier": "2.5.1",
     "serve": "^13.0.2",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^3.0.0"
   },
   "browserslist": [
     ">1%",
