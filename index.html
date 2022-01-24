@@ -61,9 +61,9 @@
 
   <body class="bg-gray-900">
     <div class="relative overflow-hidden">
-      <div class="hidden lg:block lg:absolute lg:inset-0" aria-hidden="true">
+      <div class="hidden lg:absolute lg:inset-0 lg:block" aria-hidden="true">
         <svg
-          class="absolute top-0 left-1/2 transform translate-x-64 -translate-y-8"
+          class="absolute top-0 left-1/2 translate-x-64 -translate-y-8 transform"
           width="640"
           height="784"
           fill="none"
@@ -104,7 +104,7 @@
         >
           <div class="lg:grid lg:grid-cols-12 lg:gap-8">
             <div
-              class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left"
+              class="sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:text-left"
             >
               <h1>
                 <span
@@ -114,11 +114,11 @@
                 </span>
 
                 <span
-                  class="mt-1 block text-4xl leading-normal tracking-tight font-extrabold text-white sm:leading-none sm:text-5xl xl:text-6xl"
+                  class="mt-1 block text-4xl font-extrabold leading-normal tracking-tight text-white sm:text-5xl sm:leading-none xl:text-6xl"
                 >
                   <span class="inline md:block">I am</span>
 
-                  <span class="inline text-blue-600 md:block md:mt-2">
+                  <span class="inline text-blue-600 md:mt-2 md:block">
                     Michaël De Boey
                     <span role="img" aria-label="hello">👋</span>
                   </span>
@@ -142,10 +142,10 @@
             </div>
 
             <div
-              class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center"
+              class="relative mt-12 sm:mx-auto sm:max-w-lg lg:col-span-6 lg:mx-0 lg:mt-0 lg:flex lg:max-w-none lg:items-center"
             >
               <svg
-                class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-8 scale-75 origin-top sm:scale-100 lg:hidden"
+                class="absolute top-0 left-1/2 origin-top -translate-x-1/2 -translate-y-8 scale-75 transform sm:scale-100 lg:hidden"
                 width="640"
                 height="784"
                 fill="none"
@@ -195,13 +195,13 @@
 
     <div class="bg-blue-600">
       <div
-        class="max-w-screen-xl mx-auto py-4 px-4 sm:py-6 sm:px-6 lg:px-6 lg:py-8"
+        class="mx-auto max-w-screen-xl py-4 px-4 sm:py-6 sm:px-6 lg:px-6 lg:py-8"
       >
         <div
-          class="mb-10 sm:mb-0 text-center grid grid-cols-2 sm:max-w-3xl sm:mx-auto sm:grid-cols-4 sm:gap-8"
+          class="mb-10 grid grid-cols-2 text-center sm:mx-auto sm:mb-0 sm:max-w-3xl sm:grid-cols-4 sm:gap-8"
         >
           <a
-            class="flex flex-col items-center mt-10 text-white hover:text-blue-200 sm:mt-0"
+            class="mt-10 flex flex-col items-center text-white hover:text-blue-200 sm:mt-0"
             href="https://github.com/MichaelDeBoey"
             rel="noreferrer noopener"
             target="_blank"
@@ -217,11 +217,11 @@
               />
             </svg>
 
-            <div class="mt-3 text-lg leading-6 font-medium">GitHub</div>
+            <div class="mt-3 text-lg font-medium leading-6">GitHub</div>
           </a>
 
           <a
-            class="flex flex-col items-center mt-10 text-white hover:text-blue-200 sm:mt-0"
+            class="mt-10 flex flex-col items-center text-white hover:text-blue-200 sm:mt-0"
             href="https://instagram.com/MichaelDeBoey"
             rel="noreferrer noopener"
             target="_blank"
@@ -237,11 +237,11 @@
               />
             </svg>
 
-            <div class="mt-3 text-lg leading-6 font-medium">Instagram</div>
+            <div class="mt-3 text-lg font-medium leading-6">Instagram</div>
           </a>
 
           <a
-            class="flex flex-col items-center mt-10 text-white hover:text-blue-200 sm:mt-0"
+            class="mt-10 flex flex-col items-center text-white hover:text-blue-200 sm:mt-0"
             href="https://linkedin.com/in/MichaelDeBoey"
             rel="noreferrer noopener"
             target="_blank"
@@ -257,11 +257,11 @@
               />
             </svg>
 
-            <div class="mt-3 text-lg leading-6 font-medium">LinkedIn</div>
+            <div class="mt-3 text-lg font-medium leading-6">LinkedIn</div>
           </a>
 
           <a
-            class="flex flex-col items-center mt-10 text-white hover:text-blue-200 sm:mt-0"
+            class="mt-10 flex flex-col items-center text-white hover:text-blue-200 sm:mt-0"
             href="https://twitter.com/MichaelDeBoey93"
             rel="noreferrer noopener"
             target="_blank"
@@ -277,14 +277,14 @@
               />
             </svg>
 
-            <div class="mt-3 text-lg leading-6 font-medium">Twitter</div>
+            <div class="mt-3 text-lg font-medium leading-6">Twitter</div>
           </a>
         </div>
       </div>
     </div>
 
     <div class="text-white">
-      <div class="max-w-7xl mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-7xl py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
         <h2 class="text-center text-3xl font-extrabold text-white">
           Companies I worked for
         </h2>
@@ -310,7 +310,7 @@
               />
             </svg>
 
-            <div class="mt-3 text-lg leading-6 font-medium sr-only">Aaqua</div>
+            <div class="sr-only mt-3 text-lg font-medium leading-6">Aaqua</div>
           </a>
 
           <a
@@ -330,7 +330,7 @@
               />
             </svg>
 
-            <div class="mt-3 text-lg leading-6 font-medium sr-only">
+            <div class="sr-only mt-3 text-lg font-medium leading-6">
               Alpha IT
             </div>
           </a>
@@ -358,7 +358,7 @@
               />
             </svg>
 
-            <div class="mt-3 text-lg leading-6 font-medium sr-only">
+            <div class="sr-only mt-3 text-lg font-medium leading-6">
               De Lijn
             </div>
           </a>
@@ -391,7 +391,7 @@
               />
             </svg>
 
-            <div class="mt-3 text-lg leading-6 font-medium sr-only">
+            <div class="sr-only mt-3 text-lg font-medium leading-6">
               Impraise
             </div>
           </a>
@@ -413,7 +413,7 @@
               />
             </svg>
 
-            <div class="mt-3 text-lg leading-6 font-medium sr-only">Neanex</div>
+            <div class="sr-only mt-3 text-lg font-medium leading-6">Neanex</div>
           </a>
 
           <a
@@ -433,7 +433,7 @@
               />
             </svg>
 
-            <div class="mt-3 text-lg leading-6 font-medium sr-only">Sigura</div>
+            <div class="sr-only mt-3 text-lg font-medium leading-6">Sigura</div>
           </a>
         </div>
       </div>
