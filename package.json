@@ -27,7 +27,7 @@
     "prettier": "3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.12",
     "serve": "^14.2.4",
-    "tailwindcss": "^4.1.7"
+    "tailwindcss": "^4.1.8"
   },
   "browserslist": [
     ">1%",
