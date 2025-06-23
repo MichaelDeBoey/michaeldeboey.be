@@ -24,7 +24,7 @@
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.8",
     "npm-run-all2": "^8.0.4",
-    "prettier": "3.5.3",
+    "prettier": "3.6.0",
     "prettier-plugin-tailwindcss": "^0.6.12",
     "serve": "^14.2.4",
     "tailwindcss": "^4.1.8"
