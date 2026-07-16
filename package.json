@@ -22,12 +22,12 @@
     "start:css": "npm run generate:css -- --watch"
   },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.3.2",
+    "@tailwindcss/cli": "^4.3.3",
     "npm-run-all2": "^9.0.2",
     "prettier": "3.9.5",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "serve": "^14.2.6",
-    "tailwindcss": "^4.3.2"
+    "tailwindcss": "^4.3.3"
   },
   "browserslist": [
     ">1%",
